@@ -57,7 +57,7 @@ jobs:
         with:
           php-version: 8.1
           coverage: none
-          tools: php-cs-fixer:3.21, cs2pr
+          tools: php-cs-fixer:3.92, cs2pr
 
       - name: Display PHP-CS-Fixer version
         run: php-cs-fixer --version
